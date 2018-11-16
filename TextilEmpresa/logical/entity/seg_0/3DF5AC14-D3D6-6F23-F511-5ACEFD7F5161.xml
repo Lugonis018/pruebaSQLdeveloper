@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DF5AC14-D3D6-6F23-F511-5ACEFD7F5161" name="Producto">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 21:10:22 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_prod" id="9185E7FB-2C22-5B7A-EBBF-1A7117B92291">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 21:44:44 UTC</createdTime>
+<comment>id del producto, irrepetible entre ellos</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_prod" id="8E30E80E-C268-809D-A584-36B8B3AC90A8">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 21:50:31 UTC</createdTime>
+<comment>nombre del producto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_prod" id="84F9D7A7-EDC0-D12B-C138-D38FEE64CCC7">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 21:51:39 UTC</createdTime>
+<comment>descripción del producto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preccomp_prod" id="554C6B83-9777-0D83-90AD-CE1C909780C5">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:04:27 UTC</createdTime>
+<comment>precio de compra del producto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preven_prod" id="6EC1E863-6FD3-CDB5-F492-D6A641B6488C">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:06:19 UTC</createdTime>
+<comment>precio de venta del producto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cat" id="EE032392-C751-3A78-319B-9FE748BBBDAA">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:37:06 UTC</createdTime>
+<comment>id de la categoria</comment>
+<generatorID>121462F9-4E07-8A71-5BCF-F41E1952CA3D</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>4EFB4762-528C-52BE-4595-DFB5D6E8B567</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_prod" id="097D7E13-F50A-8A9A-B643-ABF3F04CE9D3">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:08:45 UTC</createdTime>
+<comment>stock del producto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FCD120B-D580-3E46-1CFC-8967D372C76C" name="Producto PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 21:50:22 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9185E7FB-2C22-5B7A-EBBF-1A7117B92291</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

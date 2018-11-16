@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="650EAD00-E649-0AE0-5EB4-ADE55465B216" name="proveedor">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>50B2FBFE-E596-9940-D3EB-CE662802CEE6</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prove" id="3EA38CD3-0D23-D51A-0166-7712348A036B">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del proveedor</comment>
+<generatorID>0E632C81-82C5-1AEB-BF6E-E967152D7ED5</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_id_per" id="B7CF3551-DFA7-3DD4-227B-8BBEFCEE3777">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>F63E06EB-5A95-67A1-93E4-3567AB8C483C</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C3AA22F-E391-B2F1-A106-379B121D16EB" referredColumn="6878E588-290E-C5A3-A85B-31D605DF9BD8"/>
+</associations>
+</Column>
+<Column name="tipoproductobruto_id_tbruto" id="8A72ADAE-C863-278C-59B6-8A9075DE301B">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del tipo de lana/productobruto.</comment>
+<generatorID>32A958B9-27F2-4868-B4AB-D86DAC713A71</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A46D65FB-944F-F7A6-1ADF-2CEA1B2FB75C" referredColumn="B91DBE7A-A28E-AE52-6161-52CD674E8A2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF2C1A87-2F21-A81D-D540-8CCEEF2E640D" name="proveedor_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>EEA5A648-29D6-FAD0-41AA-D644557BE256</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA38CD3-0D23-D51A-0166-7712348A036B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F00A76-CE48-6598-CFC5-4DCCC78F41E2" name="proveedor__IDX">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E252346D-5087-992B-F859-52E4E3B0F90B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B7CF3551-DFA7-3DD4-227B-8BBEFCEE3777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9820DF33-DF6E-9B40-C1EE-CC4082243139" name="proveedor_persona_FK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>E252346D-5087-992B-F859-52E4E3B0F90B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CF3551-DFA7-3DD4-227B-8BBEFCEE3777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB2053E1-DB61-893E-5796-047A59EBCB19" name="proveedor_tipoproductobruto_FK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>D3097DD3-C9E6-2B44-306C-DB61056C715B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A72ADAE-C863-278C-59B6-8A9075DE301B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

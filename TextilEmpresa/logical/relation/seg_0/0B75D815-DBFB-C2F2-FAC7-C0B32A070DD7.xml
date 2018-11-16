@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nacionalidad2" directorySegmentName="seg_0" id="0B75D815-DBFB-C2F2-FAC7-C0B32A070DD7">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:37:05 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<sourcePk>AC57C93E-D587-E134-04C0-92579D1C9E3F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B6258B1-2C41-32A9-7441-1DE2EB5A057C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95CB2F8A-CAB8-4F4A-2517-B2850E768302</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

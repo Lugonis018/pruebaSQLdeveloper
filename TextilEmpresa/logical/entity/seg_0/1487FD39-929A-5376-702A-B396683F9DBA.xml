@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1487FD39-929A-5376-702A-B396683F9DBA" name="tipoproductobruto">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:03:10 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tbruto" id="FD923F17-7141-D05A-168C-792E0E44CF52">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:03:25 UTC</createdTime>
+<comment>id del tipo de lana/productobruto.</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_tbruto" id="321CADD4-207D-A057-4CF8-E8B03B826C1C">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:03:37 UTC</createdTime>
+<comment>nombre del producto bruto</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ACB3A57-9B2E-0DCE-74B2-1B1F82DEB6CB" name="tipobruto PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:03:47 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD923F17-7141-D05A-168C-792E0E44CF52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

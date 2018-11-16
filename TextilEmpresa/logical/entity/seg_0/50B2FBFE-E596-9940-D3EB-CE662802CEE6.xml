@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50B2FBFE-E596-9940-D3EB-CE662802CEE6" name="proveedor">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:39:34 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_prove" id="0E632C81-82C5-1AEB-BF6E-E967152D7ED5">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:39:44 UTC</createdTime>
+<comment>id del proveedor</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_per" id="F63E06EB-5A95-67A1-93E4-3567AB8C483C">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:05:30 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>E252346D-5087-992B-F859-52E4E3B0F90B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>C9BDB644-6805-959A-A07D-7E729F2EC334</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tbruto" id="32A958B9-27F2-4868-B4AB-D86DAC713A71">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:06:25 UTC</createdTime>
+<comment>id del tipo de lana/productobruto.</comment>
+<generatorID>D3097DD3-C9E6-2B44-306C-DB61056C715B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>FD923F17-7141-D05A-168C-792E0E44CF52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEA5A648-29D6-FAD0-41AA-D644557BE256" name="proveedor PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:42:03 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E632C81-82C5-1AEB-BF6E-E967152D7ED5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

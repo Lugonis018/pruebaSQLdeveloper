@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2914D5BC-20B4-D138-31B6-FD3F1EEBCAE8" name="cliente">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>358EE21B-7ABB-F53A-B39D-614956BA2733</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cli" id="4FED3974-78D4-702E-E930-C8E1CAABC8B4">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del cliente</comment>
+<generatorID>12D8E074-47CD-8A58-E191-5FCA5B3DD32B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomemp_cli" id="F8E58847-9913-737F-1D9C-9A39C5F40A97">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>nombre de la empresa a la que representa</comment>
+<generatorID>BD1C1616-B84A-B39B-2182-296F072972D0</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_id_per" id="0C350866-A275-7F2A-91E1-BC0DE1D3C456">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>80568B34-CD6A-FFDD-48C9-7E0FF5A001F1</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A795166-7CC1-119E-AC56-7FB7465FC217" referredColumn="6878E588-290E-C5A3-A85B-31D605DF9BD8"/>
+</associations>
+</Column>
+<Column name="codpostal_cli" id="5F53D749-31DE-B7BA-0937-3395F8148C8E">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>codigo postal del cliente</comment>
+<generatorID>864F4C5C-A884-68F8-A64A-3392AD4A63CC</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEB871AF-BB98-C125-161E-A9EFC6896DBA" name="cliente_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>A7DD0E0A-EBBF-EBAB-B271-44A9E168AEEB</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FED3974-78D4-702E-E930-C8E1CAABC8B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FEC5D1B-E508-164A-4C19-C8B3FBA92FE5" name="cliente__IDX">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0D75BBD3-DFC2-45C1-5499-EF573E98A66D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0C350866-A275-7F2A-91E1-BC0DE1D3C456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10869F82-11E9-E339-75B9-93189EDF7BF8" name="cliente_persona_FK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>0D75BBD3-DFC2-45C1-5499-EF573E98A66D</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C350866-A275-7F2A-91E1-BC0DE1D3C456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

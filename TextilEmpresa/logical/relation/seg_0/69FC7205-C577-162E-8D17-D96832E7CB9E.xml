@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="almacenar" directorySegmentName="seg_0" id="69FC7205-C577-162E-8D17-D96832E7CB9E">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 23:39:34 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5CD98EB0-C485-0AD7-A79C-19F2DABD13A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DF5AC14-D3D6-6F23-F511-5ACEFD7F5161</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

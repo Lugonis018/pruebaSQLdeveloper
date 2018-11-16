@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AFAF6F0-1E24-48C2-BD27-C6A2E815E0F4" name="tipoproductobruto">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>1487FD39-929A-5376-702A-B396683F9DBA</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tbruto" id="B91DBE7A-A28E-AE52-6161-52CD674E8A2E">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del tipo de lana/productobruto.</comment>
+<generatorID>FD923F17-7141-D05A-168C-792E0E44CF52</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_tbruto" id="F0DAD415-9EDE-130B-141E-8C7B72E7F63A">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>nombre del producto bruto</comment>
+<generatorID>321CADD4-207D-A057-4CF8-E8B03B826C1C</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E849969-E771-26C5-8368-FCD246B6F18F" name="tipoproductobruto_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>8ACB3A57-9B2E-0DCE-74B2-1B1F82DEB6CB</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B91DBE7A-A28E-AE52-6161-52CD674E8A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

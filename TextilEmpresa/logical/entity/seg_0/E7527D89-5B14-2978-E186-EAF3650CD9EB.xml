@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7527D89-5B14-2978-E186-EAF3650CD9EB" name="empleado">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:49:33 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_emp" id="5E1852FE-6EC4-4DE3-4243-236BAF7E3387">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:49:46 UTC</createdTime>
+<comment>id del empleado</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo_emp" id="D884EED5-56A9-9FAE-5F95-05096B5D9BED">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:49:51 UTC</createdTime>
+<comment>0=masculino&lt;br/&gt;1=femenino</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estcivi_emp" id="3B64DE4B-CA18-DF05-D90D-037CA26F0DA6">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:50:43 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_per" id="EEBCBB3D-6A43-B6F2-3B51-44BE2FE3A333">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:53:23 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>9D7CB341-2691-48D3-4C9B-21615CA3DC49</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>C9BDB644-6805-959A-A07D-7E729F2EC334</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cargo" id="79FEEAA2-42D6-D98B-3B9E-093D9D6CFD95">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:10:41 UTC</createdTime>
+<comment>id del cargo</comment>
+<generatorID>EDC16D11-C999-B321-6C5D-208328A9C187</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>F28D41E1-B8FB-6A88-EF86-437F0B42073B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21CF1AC6-4832-E7C4-D257-DCABC1A41269" name="empleado PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:50:58 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E1852FE-6EC4-4DE3-4243-236BAF7E3387</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

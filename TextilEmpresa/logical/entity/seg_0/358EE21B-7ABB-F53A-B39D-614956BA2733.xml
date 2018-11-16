@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="358EE21B-7ABB-F53A-B39D-614956BA2733" name="cliente">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:58:48 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cli" id="12D8E074-47CD-8A58-E191-5FCA5B3DD32B">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:58:57 UTC</createdTime>
+<comment>id del cliente</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomemp_cli" id="BD1C1616-B84A-B39B-2182-296F072972D0">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 23:04:23 UTC</createdTime>
+<comment>nombre de la empresa a la que representa</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_per" id="80568B34-CD6A-FFDD-48C9-7E0FF5A001F1">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 00:55:28 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>0D75BBD3-DFC2-45C1-5499-EF573E98A66D</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<referedAttribute>C9BDB644-6805-959A-A07D-7E729F2EC334</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codpostal_cli" id="864F4C5C-A884-68F8-A64A-3392AD4A63CC">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:19:07 UTC</createdTime>
+<comment>codigo postal del cliente</comment>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7DD0E0A-EBBF-EBAB-B271-44A9E168AEEB" name="cliente PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-08 22:59:18 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12D8E074-47CD-8A58-E191-5FCA5B3DD32B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

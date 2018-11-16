@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ECFA259-D30E-62BA-3FB0-626801EA3DF9" name="persona">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>95CB2F8A-CAB8-4F4A-2517-B2850E768302</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_per" id="6878E588-290E-C5A3-A85B-31D605DF9BD8">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del empleado</comment>
+<generatorID>C9BDB644-6805-959A-A07D-7E729F2EC334</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_per" id="00ADA048-CB47-7B0E-4783-32AD7FBDD67A">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>nombre del empleado</comment>
+<generatorID>C6537000-1C6A-446D-1D4A-B47533EFE3E2</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apepat_per" id="AEB34170-9D6B-1E9A-BFA4-D56451DC7AD6">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>apellido paterno del empleado</comment>
+<generatorID>552C33F3-C13B-7500-04FE-74956A106513</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apemat_per" id="5BBCE8B9-AA64-D33D-F4D6-B57F0F8BD4E2">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>apellido materno del empleado</comment>
+<generatorID>6612BE05-A06D-DA2B-45D1-182E97E3BED8</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechanac_per" id="7519704F-949F-910D-98AD-52BA23752226">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>fecha de nacimiento del empleado</comment>
+<generatorID>15543E9C-8A97-A7FF-1845-7323E9FE4FA7</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dir_per" id="50A5C964-F67D-4EC8-C1C8-8BC509533DDD">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>direccion del empleado</comment>
+<generatorID>89B2AD15-9CA0-A697-701B-69466C6DEA5B</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel_per" id="5FDD6204-8F0D-7951-7CFE-B3993E30C30B">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>telefono del empleado</comment>
+<generatorID>DE194D9A-2AC9-1CB9-31BE-C56B727ADD90</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cel_per" id="D2CE5842-1D7E-7D71-095B-D863B974384A">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>celular de la persona</comment>
+<generatorID>6A55C10C-2BF8-F959-DE35-A0B236584172</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dni_per" id="A35F03AB-99FD-69C7-E7A2-BF81CD6D47E0">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>dni del empleado</comment>
+<generatorID>F59C69AB-E944-8142-C10D-2A5AE609321F</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasa_per" id="9EEE43D2-EB1E-1778-5C38-444E8868DFCA">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>EABAC2BA-777E-0C1F-3046-5035C9B333BE</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_per" id="F53DC170-2CB5-1B09-AA58-6324B60C45F9">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>usuario del empleado</comment>
+<generatorID>37B9D3C2-5D07-A75D-4CD7-3A7F739500CA</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contra_per" id="15ACFDA6-0E46-D07A-960D-6E23089CAB1B">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>contraseña del empleado</comment>
+<generatorID>EEF76667-4280-2DDE-F6B3-9DF222945F14</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_per" id="A55D8C73-8B04-C472-F766-2BF7E24E5F17">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>email de la persona</comment>
+<generatorID>B7146000-B4DC-DAA9-B014-00B17E917F5A</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad_id_nadad" id="14380A39-25CC-3454-F8A4-AE0CB9321B60">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id de la nacionalidad</comment>
+<generatorID>EBF3088A-BEB9-3503-94FF-0247A38EF2A6</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A463B973-8339-4A4B-8043-4B3119C723B3" referredColumn="25BB050E-FD80-9C20-3BD9-78641711C2D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E9FF940-5682-1FBC-AF6B-9D785C7A3447" name="persona_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>E3DFE8B7-0AB3-5FED-C5B8-516E73BEDC5D</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6878E588-290E-C5A3-A85B-31D605DF9BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBD8C5CF-EAF1-4751-9081-9C73E6880350" name="persona_nacionalidad_FK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>0B75D815-DBFB-C2F2-FAC7-C0B32A070DD7</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14380A39-25CC-3454-F8A4-AE0CB9321B60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

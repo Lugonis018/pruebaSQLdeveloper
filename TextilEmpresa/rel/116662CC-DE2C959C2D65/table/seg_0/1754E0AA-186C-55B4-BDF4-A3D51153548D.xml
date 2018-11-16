@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1754E0AA-186C-55B4-BDF4-A3D51153548D" name="vender">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venta" id="B09E1BE3-E69B-8E90-A013-26DCDF14E2A0">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:44:24 UTC</createdTime>
+<commentInRDBMS>id de la venta realizada</commentInRDBMS>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id_cli" id="0586B30D-600E-D942-A1E5-44491D3D8E18">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E37B515-0DE9-5BB8-775C-D9A136EF7849" referredColumn="4FED3974-78D4-702E-E930-C8E1CAABC8B4"/>
+</associations>
+</Column>
+<Column name="Producto_id_prod" id="6DDF977E-2F49-FC15-B9CF-4F4576EC59A7">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE6A3E06-B49B-F772-B420-8D1800318BD2" referredColumn="75D615CA-BFB1-E76B-ADAF-238B80609944"/>
+</associations>
+</Column>
+<Column name="prec_venta" id="25873F75-45B5-CFA7-A45F-4A3B52CF27B1">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:42:29 UTC</createdTime>
+<commentInRDBMS>precio de la venta en un momento específico</commentInRDBMS>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_venta" id="4B97E04B-E387-782D-A6C5-0AC1719D9764">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:49:16 UTC</createdTime>
+<commentInRDBMS>kg que se venden del producto específico</commentInRDBMS>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_venta" id="6D1C88EE-F616-8C2E-AA2D-4BC5A8F77936">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:46:48 UTC</createdTime>
+<commentInRDBMS>fecha y hora de la compra</commentInRDBMS>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1063BF89-1A00-B8C5-FD06-10E8463600DF" name="vender_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0586B30D-600E-D942-A1E5-44491D3D8E18"/>
+<colUsage columnID="6DDF977E-2F49-FC15-B9CF-4F4576EC59A7"/>
+<colUsage columnID="B09E1BE3-E69B-8E90-A013-26DCDF14E2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C3864EE-2539-9D09-7DE2-B2EDFC484EA4" name="FK_ASS_16">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>BD499BD2-9D4B-CDE4-DD16-BC91B7CFE003</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0586B30D-600E-D942-A1E5-44491D3D8E18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FF26FDB-698B-ECDE-CA9E-C65251A5C6DC" name="FK_ASS_17">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>BD499BD2-9D4B-CDE4-DD16-BC91B7CFE003</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DDF977E-2F49-FC15-B9CF-4F4576EC59A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

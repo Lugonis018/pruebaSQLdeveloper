@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50BF501B-62F5-EC57-D927-3A9B6DCA1C86" name="Producto">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>3DF5AC14-D3D6-6F23-F511-5ACEFD7F5161</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prod" id="75D615CA-BFB1-E76B-ADAF-238B80609944">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id del producto, irrepetible entre ellos</comment>
+<generatorID>9185E7FB-2C22-5B7A-EBBF-1A7117B92291</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_prod" id="7F5FE596-B941-6D49-C482-E937CB2CD8BD">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>nombre del producto</comment>
+<generatorID>8E30E80E-C268-809D-A584-36B8B3AC90A8</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_prod" id="1C42B56A-C35D-7E5B-A141-62D7CC4E426C">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>descripción del producto</comment>
+<generatorID>84F9D7A7-EDC0-D12B-C138-D38FEE64CCC7</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preccomp_prod" id="8FD2A5B8-8089-9963-6EBE-305E14694AF7">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>precio de compra del producto</comment>
+<generatorID>554C6B83-9777-0D83-90AD-CE1C909780C5</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preven_prod" id="A0DA88F3-F438-BB63-6890-0EC898DB07BA">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>precio de venta del producto</comment>
+<generatorID>6EC1E863-6FD3-CDB5-F492-D6A641B6488C</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria_id_cat" id="9E88BD9D-6CFB-FFEC-B6FB-B73292418388">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>id de la categoria</comment>
+<generatorID>EE032392-C751-3A78-319B-9FE748BBBDAA</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4B5D5B-7FA3-9BBE-25EC-4CA090E22478" referredColumn="D95D46F1-C380-5383-6EB3-7A52C5A33866"/>
+</associations>
+</Column>
+<Column name="cant_prod" id="3B7AD275-3756-A0B7-EEBF-D9FA8753CB06">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<comment>stock del producto</comment>
+<generatorID>097D7E13-F50A-8A9A-B643-ABF3F04CE9D3</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen_prod" id="95CB8785-6D2B-6A56-6D90-E604742557D7">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 02:05:29 UTC</createdTime>
+<commentInRDBMS>imagen de la producto</commentInRDBMS>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_alm" id="F525400B-EDE3-605E-71AA-059A57B233AA">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 02:17:00 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F55AF75-5864-9B9B-8FE4-79280DB7BFEF" referredColumn="DFCC2F2A-554A-F47B-6F75-8C3BF3A1633A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="311AC56C-EC95-07DE-A8D4-450122D6D55A" name="Producto_PK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>8FCD120B-D580-3E46-1CFC-8967D372C76C</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D615CA-BFB1-E76B-ADAF-238B80609944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19BCF032-91D5-6DE8-C34D-43A1DAB80C36" name="almacenar">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>69FC7205-C577-162E-8D17-D96832E7CB9E</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F525400B-EDE3-605E-71AA-059A57B233AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F88A844-0BF0-D23B-10FD-5BE369D4AD51" name="Producto_categoria_FK">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-15 01:21:54 UTC</createdTime>
+<generatorID>121462F9-4E07-8A71-5BCF-F41E1952CA3D</generatorID>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E88BD9D-6CFB-FFEC-B6FB-B73292418388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

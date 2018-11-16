@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipodecargodelempleado" directorySegmentName="seg_0" id="EDC16D11-C999-B321-6C5D-208328A9C187">
+<createdBy>ANDRES</createdBy>
+<createdTime>2018-11-09 01:10:41 UTC</createdTime>
+<ownerDesignName>TextilEmpresa</ownerDesignName>
+<engineerTo>
+<item key="116662CC-15C9-418C-817A-DE2C959C2D65" value="true"/>
+</engineerTo>
+<sourcePk>9A0047FB-113D-903B-554D-AFFAAEF3287F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3974F608-E5F9-01D4-5C17-C3A737250823</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7527D89-5B14-2978-E186-EAF3650CD9EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
